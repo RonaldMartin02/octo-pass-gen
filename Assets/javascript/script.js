@@ -1,10 +1,10 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 var deleteBtn = document.querySelector("#delete");
-var uCaseArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
-var lCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-var specArray = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')'];
-var numArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+var uCaseArray = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+var lCaseArray = "abcdefghijklmnopqrstuvwxyz".split("");
+var specArray = "!#$%&'()*+,-./:;<=>?@[]^_`{|}~".split("");
+var numArray = "0123456789".split("");
 
 // Write password to the #password input
 function writePassword() {
@@ -20,7 +20,7 @@ function writePassword() {
 function generatePassword() {
   var password = "";
   var passArray = [];
-  var pLength = parseInt(prompt("How long do you want your pasword to be:"));
+  var pLength = parseInt(prompt("How long do you want your pasword to be: \n (Please enter only numbers between 8-128)"));
   if (pLength >= 8 && pLength <= 128) {
     passArray = passArray.concat(lCaseArray)
     var uCaseConfirm = confirm("Do you need a Capital letters:");
