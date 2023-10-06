@@ -32,12 +32,12 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Deployment
 
-[Link to the website](https://https://ronaldmartin02.github.io/Ronalds-portfolio/)
- ![Image of my Website Deployed](./Assets/Img/octo_pass_gen_Deployment.png)
+[Link to the website](https://ronaldmartin02.github.io/octo-pass-gen/)
+ ![Image of my Website Deployed](./Assets/Img/octo_pass_gen_Deployment.PNG)
 
 ## Usage
 
-To use this , press the generate Password button. 
+To use this , press the generate Password button. This will generate a random password when clicked. After you click the button you will be prompted to enter a number 8-128. Then you will be asked to confirm if you need a Capital Letter, Number or Special Characters. After, it will generate the password.  
 
 ## Credits
 
