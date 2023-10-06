@@ -67,6 +67,7 @@ function generatePassword() {
       return "";
     }
   }
+
 }
 function clearDiv() {
   document.getElementById("password").value = "";
